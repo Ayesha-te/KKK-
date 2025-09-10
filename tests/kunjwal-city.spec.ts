@@ -14,7 +14,7 @@ test.describe('Kunjwal City Website', () => {
 
     // Test Hero Section
     await expect(page.locator('h1:has-text("Kunjwal City")')).toBeVisible();
-    await expect(page.locator('text=Premium residential plots starting from PKR 23.25 Lakh')).toBeVisible();
+    await expect(page.locator('text=Premium residential plots ')).toBeVisible();
     await expect(page.locator('text=DISCOVER KUNJWAL CITY')).toBeVisible();
 
     // Test Stats Section

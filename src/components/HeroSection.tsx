@@ -36,7 +36,7 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-4">Kunjwal City</h1>
           <div className="text-2xl md:text-3xl mb-6 font-light" dir="rtl">جہاں دل بس جائے!</div>
           <p className="text-lg md:text-2xl mb-8 text-gray-200">
-            Premium residential plots starting from PKR 23.25 Lakh
+            Premium residential plots
           </p>
           <Button size="lg" className="bg-golden-accent hover:bg-golden-hover text-white font-semibold px-8 py-4 text-lg rounded-lg">
             DISCOVER KUNJWAL CITY

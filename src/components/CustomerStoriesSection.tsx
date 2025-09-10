@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
-import familyTestimonial from "@/assets/mosque.jpg"; // Using mosque image as placeholder for family testimonial
+import familyTestimonial from "@/assets/mosque.png"; // Using mosque image as placeholder for family testimonial
 
 const CustomerStoriesSection = () => {
   return (

@@ -56,24 +56,17 @@ const CustomerStoriesSection = () => {
           </Card>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-8 text-center mb-12">
-          <div>
-            <div className="text-4xl font-bold text-golden-accent mb-2">500+</div>
-            <div className="text-gray-600">Happy Families</div>
-          </div>
-          <div>
-            <div className="text-4xl font-bold text-golden-accent mb-2">4.9/5</div>
-            <div className="text-gray-600">Customer Rating</div>
-          </div>
-          <div>
-            <div className="text-4xl font-bold text-golden-accent mb-2">100%</div>
-            <div className="text-gray-600">Transparent Dealing</div>
-          </div>
-          <div>
-            <div className="text-4xl font-bold text-golden-accent mb-2">40+</div>
-            <div className="text-gray-600">Years Legacy</div>
-          </div>
-        </div>
+     <div className="grid grid-cols-2 gap-4 justify-center text-center mb-12 max-w-md mx-auto">
+  <div>
+    <div className="text-4xl font-bold text-golden-accent mb-2">4.9/5</div>
+    <div className="text-gray-600">Customer Rating</div>
+  </div>
+  <div>
+    <div className="text-4xl font-bold text-golden-accent mb-2">100%</div>
+    <div className="text-gray-600">Transparent Dealing</div>
+  </div>
+</div>
+
 
         <div className="text-center">
           <p className="text-lg text-gray-700 mb-6">

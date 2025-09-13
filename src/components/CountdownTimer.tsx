@@ -77,7 +77,9 @@ const CountdownTimer = () => {
             autoPlay
             muted
             loop
-            className="rounded-lg shadow-lg w-full max-w-2xl bg-black"
+          className="rounded-lg shadow-lg w-full max-w-5xl bg-black"
+
+
             poster={new URL("../assets/kunjwal-promo-poster.jpg", import.meta.url).href}
           >
             Your browser does not support the video tag.

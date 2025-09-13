@@ -26,6 +26,7 @@ const GalleryPage = () => {
 
       <section className="py-20 bg-gray-100 min-h-screen">
         <div className="container mx-auto px-4">
+          {/* Section Header */}
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-text-dark mb-4">
               Gallery
@@ -37,18 +38,18 @@ const GalleryPage = () => {
           </div>
 
           {/* Gallery Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {images.map((img, idx) => (
               <div
                 key={idx}
                 className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow"
               >
                 {/* Image Wrapper */}
-                <div className="flex items-center justify-center h-48 bg-gray-200">
+                <div className="flex items-center justify-center h-72 bg-gray-200">
                   <img
                     src={img.src}
                     alt={img.alt}
-                    className="max-h-48 w-auto object-contain transition-transform duration-300 hover:scale-105"
+                    className="max-h-72 w-auto object-contain transition-transform duration-300 hover:scale-105"
                   />
                 </div>
 
